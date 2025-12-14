@@ -54,8 +54,8 @@ export default function Home() {
                         <h1 className="text-2xl font-bold text-white">MicroLearn</h1>
                     </div>
                     <div className="flex gap-4">
-                        <button className="btn-secondary"><Link href="/auth/sign-in">Sign In</Link></button>
-                        <button className="btn-primary"><Link href="/auth/sign-up">Get Started</Link></button>
+                        <button className="btn-secondary"><Link href="/sign-in">Sign In</Link></button>
+                        <button className="btn-primary"><Link href="/sign-up">Get Started</Link></button>
                     </div>
                 </div>
             </nav>
