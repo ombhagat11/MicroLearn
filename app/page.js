@@ -33,7 +33,7 @@ export default function Home() {
           <Navbar />
 
           {/* Hero Content */}
-          <div className="mb-10 mt-10">
+          <div className="mb-10 mt-16">
             <p className="text-gray-500 font-medium mb-2">AI-Powered Growth</p>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
               What do you want to <br /> learn today?
