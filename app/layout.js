@@ -1,6 +1,9 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+<<<<<<< HEAD
 import { ClerkProvider } from '@clerk/nextjs'
+=======
+>>>>>>> 45001726ba9145a13b49f8931da0eeb9698108fe
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,6 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
+<<<<<<< HEAD
         <ClerkProvider>
         <html lang="en">
             <body className={inter.className}>
@@ -21,5 +25,10 @@ export default function RootLayout({ children }) {
         </html>
             </ClerkProvider>
 
+=======
+        <html lang="en">
+            <body className={inter.className}>{children}</body>
+        </html>
+>>>>>>> 45001726ba9145a13b49f8931da0eeb9698108fe
     )
 }

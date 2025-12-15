@@ -36,5 +36,8 @@ next-env.d.ts
 # Prisma
 prisma/*.db
 prisma/*.db-journal
+<<<<<<< HEAD
 
 /app/generated/prisma
+=======
+>>>>>>> 45001726ba9145a13b49f8931da0eeb9698108fe
